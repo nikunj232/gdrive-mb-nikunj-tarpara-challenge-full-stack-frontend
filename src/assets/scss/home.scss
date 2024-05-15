@@ -1,0 +1,14 @@
+.footer-link-header{
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.footer-link-item{
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    &:hover{
+        opacity: .65;
+    }
+}

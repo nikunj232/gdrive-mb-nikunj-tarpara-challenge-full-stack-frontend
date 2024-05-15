@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import '~react-toastify/dist/ReactToastify.css';
+@import './home.scss';
+
+// @import "theme.scss";
+// @import "nprogress.scss";
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  // background: url("../images/jpg/background-image.jpeg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  // background-color: rgb(235, 235, 235);
+  font-family: 'Montserrat', sans-serif !important;
+}
+#root{
+  height: 100%;
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+// <slant>: Use a value from -10 to 0
+
+.btn-primary{
+  @apply border-2 border-primary px-6 py-2 font-semibold bg-primary rounded-lg text-white
+}
+
+.btn-primary-outline{
+  @apply px-6 py-2 font-semibold border-2 border-primary rounded-lg bg-white text-primary
+}
+
+.btn-danger{
+  @apply border-2 border-red px-6 py-2 font-semibold bg-red rounded-lg text-white
+}
+
+.btn-danger-outline{
+  @apply px-6 py-2 font-semibold border-2 border-red rounded-lg bg-white text-red
+}
+
+@media (min-width: 1400px) {
+  .container{
+    max-width: 1100px;
+  }
+}
