@@ -7,7 +7,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `create env`
-Add this code in env file: `REACT_APP_API_ENDPOINT=http://localhost:3000/`
+Add this code in env file: 
+`PORT=3001`
+`REACT_APP_API_ENDPOINT=http://localhost:3000/`
 
 ### `npm start`
 
