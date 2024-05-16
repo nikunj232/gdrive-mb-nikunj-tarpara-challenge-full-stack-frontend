@@ -35,6 +35,8 @@ export {default as pdfSvg} from "./svg/pdf.svg"
 export {default as documentSvg} from "./svg/page.svg"
 export {default as externalSvg} from "./svg/fi_external-link.svg"
 export {default as fiUsersGraySvg} from "./svg/fi_users.svg"
+export {default as riskScoreSvg} from "./svg/risk-score.svg"
+export {default as videoSvg} from "./svg/Type=video.svg"
 
 //gif
 export {default as inlineLoaderGif} from "./gif/inline-loader.gif"

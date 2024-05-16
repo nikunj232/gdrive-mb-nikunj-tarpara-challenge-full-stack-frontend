@@ -25,11 +25,11 @@ axiosApi.interceptors.response.use((response) => {
 }, (error) => {
   const resposneStatus = error?.response?.status
   switch (resposneStatus) {
-    // case 401:
-    //   userLogout()
-    //   toast.error("Unauthorized!")
-    //   window.location.href = '/login'
-    //   break
+    case 401:
+      userLogout()
+      // toast.error("Unauthorized!")
+      window.location.href = '/'
+      break
 
     default:
       throw error

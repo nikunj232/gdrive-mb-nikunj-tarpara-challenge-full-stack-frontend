@@ -56,3 +56,32 @@ body {
     max-width: 1100px;
   }
 }
+// mailto:tarparanikunj232@gmail.com?subject=Your GDrive file %22I am sharing %27cd practicls(all) (2)%27 with you%22 is shared publicly&body=Hi nikunj,%0A%0AI found this file in my Google Drive account, which was created by you: %22I am sharing %27cd practicls(all) (2)%27 with you%22%0A%0AI found it using the Metomic Google Drive Scanner: https://scan.metomic.io.%0AThought I%27d let you know as it might be a risky file!%0A%0AThanks,%0Anikunj%0A
+.whiteSvgIcon{
+  filter: invert(100%) sepia(0%) saturate(7401%) hue-rotate(99deg) brightness(109%) contrast(100%)
+}
+.risk-score-container{
+  &.high{
+    img{
+      filter: invert(17%) sepia(42%) saturate(7347%) hue-rotate(3deg) brightness(92%) contrast(104%);
+    }
+    background-color: #ec000030;
+  }
+  &.low{
+    img{
+      filter: invert(33%) sepia(71%) saturate(2532%) hue-rotate(108deg) brightness(103%) contrast(94%);
+    }
+    background-color: #08A80E30;
+  }
+}
+
+.group {
+  .invisible{
+    visibility: hidden !important;
+  }
+  &:hover{
+    .invisible{
+      visibility: visible !important;
+    }
+  }
+}
